@@ -11,7 +11,7 @@ class HeaderComponent extends React.Component{
     <div className="content">K-Pop Suggestions</div>
   </h2>
 </div>
-<div className="ui horizontal divider">Art Industries</div>
+<div className="ui horizontal divider">Art Industries Production</div>
 </div>
 )
   }

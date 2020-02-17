@@ -1,0 +1,14 @@
+
+.tile-root{
+  width: 50%;
+  height: 100%;
+}
+
+.ui.card,
+.ui.cards>.card {
+  background-color: #d6acec;
+}
+
+.content{
+  color: Black;
+}
