@@ -1,6 +1,9 @@
 
 div{
   width: 100%;
-  background-color: #b060d9;
+}
 
+.content{
+  color: #d6acec;
+  font-size: 32px;
 }

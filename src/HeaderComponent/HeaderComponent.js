@@ -4,14 +4,14 @@ import './HeaderComponent.css';
 class HeaderComponent extends React.Component{
   render() {
     return(
-<div className="header-div">
 <div>
-  <h2 class="ui icon center aligned header">
-    <i aria-hidden="true" class="users circular icon"></i>
-    <div class="content">Friends</div>
+<div className="header-div">
+  <h2 className="ui icon center aligned header">
+     <img src={require('./logo.png')}  alt="logo"/>
+    <div className="content">K-Pop Suggestions</div>
   </h2>
-  <div class="ui horizontal divider">Or</div>
 </div>
+<div className="ui horizontal divider">Art Industries</div>
 </div>
 )
   }
