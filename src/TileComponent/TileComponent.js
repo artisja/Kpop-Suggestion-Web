@@ -6,19 +6,19 @@ class TileComponent extends React.Component{
   render() {
     return(
    <div className="tile-root">
-   <h2 class="ui header">Component Title</h2>
+   <h2 class="ui header">{this.props.sectionHeader}</h2>
     <div className="ui cards">
     <div className="ui centered card">
       <div className="content">
         <img className="right floated mini ui image" src={require('./usoppTest.png')}  alt="Sogeking"/>
         <div className="header">
-          Usopp
+          {this.props.userHeader}
         </div>
         <div className="meta">
-        Sniper for Straw Hat Pirates
+        {this.props.descript}
         </div>
         <div className="description">
-        Latest Likes: Hinds- Bamboo, Mamamoo- Universe
+        {this.props.likes}
         </div>
       </div>
             <div class="extra content">

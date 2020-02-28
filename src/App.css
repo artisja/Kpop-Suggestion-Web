@@ -15,4 +15,6 @@ variables{
 
 .suggest-row{
   height: 50%;
+  width: 100%;
+  display: inline-flex;
 }
