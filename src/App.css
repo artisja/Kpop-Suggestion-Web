@@ -18,3 +18,9 @@ variables{
   width: 100%;
   display: inline-flex;
 }
+
+.song-row{
+  height: 50%;
+  width: 100%;
+  display: inline-flex;
+}
