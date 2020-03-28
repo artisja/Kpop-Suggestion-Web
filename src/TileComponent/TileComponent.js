@@ -21,10 +21,10 @@ class TileComponent extends React.Component{
         {this.props.likes}
         </div>
       </div>
-            <div class="extra content">
-                <div class="ui two buttons">
-                  <div class="ui basic green button">Approve</div>
-                  <div class="ui basic red button">Decline</div>
+            <div classnames="extra content">
+                <div className="ui two buttons">
+                  <div className="ui basic green button">Approve</div>
+                  <div className="ui basic red button">Decline</div>
                 </div>
             </div>
           </div>
